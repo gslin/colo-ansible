@@ -11,6 +11,7 @@
       - curl
       - dstat
       - jq
+      - moreutils
       - most
       - mtr-tiny
       - python
