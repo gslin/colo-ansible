@@ -6,7 +6,7 @@
   - name: Update apt
     apt: cache_valid_time=86400 update_cache=yes upgrade=yes
   - name: Install basic applications
-    apt: name={{item}} state=latest
+    apt: name="{{item}}" state=latest
     loop:
       - curl
       - dstat
