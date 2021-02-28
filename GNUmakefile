@@ -1,6 +1,6 @@
 #
-all:
+all::
 	ansible-playbook playbook-basic.yml playbook-php.yml
 
-clean:
+clean::
 	rm -f *.retry
